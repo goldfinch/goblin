@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "markuplint:recommended"
+  ],
+  "parser": {
+    ".vue$": "@markuplint/vue-parser",
+    ".ss$": "@markuplint/html-parser",
+    ".php$": "@markuplint/php-parser"
+  },
+  "rules": {
+    "no-hard-code-id": false,
+    "required-attr": true,
+    "require-accessible-name": true,
+    "invalid-attr": true,
+    "ineffective-attr": false,
+    "deprecated-attr": true,
+    "required-element": true,
+    "case-sensitive-attr-name": false,
+    "character-reference": true,
+    "required-h1": true,
+    "no-refer-to-non-existent-id": true,
+    "no-use-event-handler-attr": false,
+    "use-list": false,
+    "landmark-roles": false,
+    "wai-aria": true,
+    "end-tag": false,
+    "disallowed-element": true,
+    "placeholder-label-option": true,
+    "require-datetime": true,
+    "id-duplication": true,
+    "deprecated-element": true,
+    "attr-duplication": true,
+    "doctype": "always",
+    "no-boolean-attr-value": false,
+    "label-has-control": false,
+    "case-sensitive-tag-name": false,
+    "no-default-value": false,
+    "attr-value-quotes": false,
+    "permitted-contents": true,
+    "class-naming": false,
+    "no-empty-palpable-content": false
+  }
+}
