@@ -1,5 +1,5 @@
 {
-  "name": "@goldfinch/goblin",
+  "name": "@weart/goblin",
   "version": "1.0.0",
   "description": "bundle of lints",
   "main": "index.js",
